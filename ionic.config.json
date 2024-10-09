@@ -1,0 +1,7 @@
+{
+  "name": "safeFood",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
