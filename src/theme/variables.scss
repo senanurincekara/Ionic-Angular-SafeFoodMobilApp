@@ -1,2 +1,51 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+
+
+
+
+.my-custom-class .alert-wrapper {
+    background: #e5e5e5;
+    border-radius: 10px;
+
+    .alert-head{
+        background: darkred;
+        color: white;
+
+        h2{
+            color: white;
+            font-weight: bolder;
+        }
+        
+
+    }
+
+    .alert-button-group{
+        display: flex;
+        justify-content: center;
+        color: black;
+
+        .alert-button{
+            color: black;
+        }
+
+        
+    }
+
+    button.alertButton {
+        color: black; 
+        background: transparent;
+        border: none; 
+        padding: 10px;
+        cursor: pointer; 
+        
+        &:hover {
+            background: #ddd; 
+        }
+    }
+
+
+  }
+
+

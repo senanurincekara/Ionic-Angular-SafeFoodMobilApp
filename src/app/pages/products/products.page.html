@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title mode="ios">
+      <img src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="">
+    </ion-title>
+
+    <ion-buttons slot="start" (click)="goBack()">
+      <ion-thumbnail class="menu">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of firmaItems" (click)="goToResultPage(item)">
+    <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+      <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+    </ion-thumbnail>
+    <ion-col>
+      <ion-row>
+        <ion-label>Ürün Markası:</ion-label>
+        <ion-label>{{ item.Marka }}</ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-label>Ürün Adı:</ion-label>
+        <ion-label>{{ item.UrunAdi }}</ion-label>
+      </ion-row>
+    </ion-col>
+  </ion-card>
+
+  <div *ngIf="firmaItems.length === 0">
+    <p>Bu firmaya ait ürün bulunamadı.</p>
+  </div>
+</ion-content>

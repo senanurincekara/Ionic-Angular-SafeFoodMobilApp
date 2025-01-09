@@ -1,0 +1,140 @@
+<ion-header >
+  <ion-toolbar >
+    <ion-title mode="ios">
+      <img src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="">
+    </ion-title>
+
+    <ion-buttons slot="start" (click)="goBack()"  >
+      <ion-thumbnail  class="menu">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-col size="6" class="ion-text-center">
+    <ion-card color="light">
+     
+      <ion-label class="titleLabel" >{{firmaAdi }}</ion-label>
+    </ion-card>
+  </ion-col>
+
+
+  <ion-col class="ion-margin">
+    <ion-col size="6" class="ion-text-center">
+      <ion-card>
+        <ion-thumbnail [style.background]="'rgba(240,94,112, 0.2)'">
+          <ion-icon name="alert-circle-outline" color="danger"></ion-icon>
+        </ion-thumbnail>
+        <div class="container-label-icon">
+          <ion-label>{{uygunsuzluk}}</ion-label>
+        </div>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6" class="ion-text-center">
+      <ion-card color="light">
+        <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+          <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+        </ion-thumbnail>
+        <ion-row>
+          <ion-label>Ürün Markası:</ion-label>
+        <ion-label>{{marka }}</ion-label>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+
+  
+
+    <ion-col size="6" class="ion-text-center">
+      <ion-card color="light">
+        <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+          <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+        </ion-thumbnail>
+        <ion-row>
+          <ion-label>Ürün Adı: </ion-label>
+          <ion-label>
+            {{urunAdi }}
+          </ion-label>
+
+        </ion-row>
+        
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6" class="ion-text-center">
+      <ion-card color="light">
+        <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+          <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+        </ion-thumbnail>
+        <ion-row>
+          <ion-label>Ürün Grubu: </ion-label>
+          <ion-label>
+            {{UrunGrupAdi }}
+          </ion-label>
+
+        </ion-row>
+        
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6" class="ion-text-center">
+      <ion-card color="light">
+        <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+          <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+        </ion-thumbnail>
+        <ion-row>
+          <ion-label>Firma Konum: </ion-label>
+          <ion-label>
+           {{FirmaIlce}} {{FirmaIl }}
+          </ion-label>
+
+        </ion-row>
+        
+      </ion-card>
+    </ion-col>
+
+    
+    <ion-col size="6" class="ion-text-center">
+      <ion-card color="light">
+        <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+          <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+        </ion-thumbnail>
+        <ion-row>
+          <ion-label>Duyuru Tarihi: </ion-label>
+          <ion-label>
+            {{duyuruTarihi }}
+          </ion-label>
+        </ion-row>
+        
+      </ion-card>
+    </ion-col>
+
+        
+    <ion-col size="6" class="ion-text-center" >
+      <ion-card color="danger" (click)="goToDetailPage(marka , firmaAdi)">
+        <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </ion-thumbnail>
+        <ion-row>
+          <ion-label>İşletmenin zararlı ürünleri</ion-label>
+        </ion-row>
+
+
+        
+      </ion-card>
+    </ion-col>
+
+
+
+
+
+ 
+    
+  </ion-col>
+
+</ion-content>

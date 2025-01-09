@@ -1,0 +1,66 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title mode="ios" >
+      <img src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="">
+    </ion-title>
+
+    <ion-buttons slot="start" (click)="openMenu()">
+      <ion-thumbnail class="menu">
+        <ion-icon name="apps-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-img src="/assets/1.png" alt=""></ion-img>
+
+  <ion-grid class="custom-grid">
+    <ion-row class="custom-row">
+      <ion-col class="custom-column2">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>
+              Tarım ve Orman Bakanlığı ülkemizde gıda güvenilirliğinin temin edilmesinde tek yetkili otoritedir.
+              Bakanlığımızca, Avrupa Birliği müktesebatı, FAO/WHO standartları ile uluslararası kabul görmüş bilimsel temellere dayalı yaklaşımları esas alan Çiftlikten/Tarladan Sofraya Gıda Güvenilirliği Prensibi ile gıda zincirinin her aşamasını kapsayan bütüncül yaklaşımla gıda güvenilirliğine yönelik gerekli yasal altyapı oluşturulmuştur.
+              Gıda güvenilirliğinin sağlanması tüketici sağlığının korunması amacıyla 5996 sayılı Veteriner Hizmetleri, Bitki Sağlığı, Gıda ve Yem Kanunu ile 200’ün üzerinde ikincil mevzuat hazırlanmıştır. Bilimsel gelişmeler ve ülkemiz ihtiyaçları doğrultusunda bu çalışmalarımız aralıksız devam etmektedir.
+            </ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-row class="ion-margin">
+    <ion-col size="6" class="ion-text-center">
+      <ion-card [routerLink]="['/scan']" style="height: 150px;">
+        <ion-thumbnail [style.background]="'rgba(240,94,112, 0.2)'">
+          <ion-icon style="color: rgb(102, 18, 18);" name="scan-circle-outline" ></ion-icon>
+        </ion-thumbnail>
+        <ion-label>Barkod okutunuz</ion-label>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6" class="ion-text-center">
+      <ion-card class="customCard" [routerLink]="['/table']"  style="background-color: rgb(102, 18, 18);height: 150px;">
+        <ion-thumbnail [style.background]="'rgba(240,94,112, 0.2)'">
+          <ion-icon style="color: white;" name="checkmark-done-circle-outline" ></ion-icon>
+        </ion-thumbnail>
+        <ion-label style="color: white;" class="customLabel">Tağşiş tablosu</ion-label>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="ion-margin">
+    <ion-col size="12" class="ion-text-center">
+      <ion-card class="customCard" [routerLink]="['/information']" style="background-color: rgb(102, 18, 18);">
+        <ion-thumbnail [style.background]="'rgba(240,94,112, 0.2)'">
+          <ion-icon style="color: white;" name="checkmark-done-circle-outline" ></ion-icon>
+        </ion-thumbnail>
+        <ion-label style="color: white;" class="customLabel">Gıdada Doğru Bilgi</ion-label>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

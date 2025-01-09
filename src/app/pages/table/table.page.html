@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- <ion-title>
+      <img  style="align-items: center;" src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="">
+    </ion-title> -->
+
+    <ion-buttons slot="start" [routerLink]="['/main']">
+      <ion-thumbnail class="menu">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-loading class="custom-loading"
+    [isOpen]="loading"
+    message="Yükleniyor..."
+  ></ion-loading>
+
+  <ion-searchbar class="custom" (ionInput)="filter($event)" placeholder="Arama yap..."></ion-searchbar>
+
+  <ion-col size="6" *ngFor="let item of arananItems">
+    <ion-card class="custom-card" (click)="goToResult(item)">
+      <ion-card-header>
+        <ion-card-title>{{ item.FirmaAdi }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{ item.UrunAdi }}</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+</ion-content>

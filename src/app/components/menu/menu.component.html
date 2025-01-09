@@ -1,0 +1,38 @@
+<ion-menu side="start" menuId="first" contentId="main-content">
+  <ion-header class="customHeader">
+    <ion-toolbar class="ion-padding-vertical">
+      <div class="header-content">
+        <img [src]="'assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png'" />
+        <ion-label> Güvenilir Gıda </ion-label>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="myCustomMenu">
+    <ion-list>
+      <ion-item (click)="goToThePage('main')">
+        <ion-icon name="home" slot="start"></ion-icon>
+        <ion-label>Ana Sayfa</ion-label>
+      </ion-item>
+      <ion-item (click)="goToThePage('foodLabel')">
+        <ion-icon name="information-circle" slot="start"></ion-icon>
+        <ion-label>Gıda Etiketleri</ion-label>
+      </ion-item>
+      <ion-item (click)="goToThePage('chat')">
+        <ion-icon name="logo-octocat" slot="start"></ion-icon>
+        <ion-label>GıdaBot</ion-label>
+      </ion-item>
+     
+    </ion-list>
+
+    <ion-list>
+      <ion-item [routerLink]="['/contact']">
+        <ion-icon name="log-out-outline" slot="start"></ion-icon>
+        <ion-label>Çıkış</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-content id="main-content">
+</ion-content>

@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
-};
+  production: false,
+  googleGenerativeAIKey: 'AIzaSyD8xvUlZ7WQ4ZxcTZmh-IHmnVBqIwk3o3s'  // API Key burada saklanacak
+}

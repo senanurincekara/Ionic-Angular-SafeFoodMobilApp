@@ -1,0 +1,65 @@
+<ion-header >
+  <ion-toolbar >
+    <ion-title mode="ios">
+      <img src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="">
+    </ion-title>
+
+    <ion-buttons slot="start" (click)="goBack()"  >
+      <ion-thumbnail  class="menu">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+
+  
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-card (click)="goToResultPage(matchedItem)" *ngFor="let matchedItem of matchedItems">
+ 
+    <ion-thumbnail [style.background]="'rgba(94,155,240, 0.2)'">
+      <ion-icon name="alert-circle-outline" color="secondary"></ion-icon>
+    </ion-thumbnail>
+    <ion-col>
+      <ion-row>
+        <ion-label>Ürün Markası:</ion-label>
+      <ion-label>{{matchedItem.Marka  }}</ion-label>
+      </ion-row>
+      <ion-row>
+        <ion-label>Ürün Adı:</ion-label>
+      <ion-label>{{matchedItem.UrunAdi  }}</ion-label>
+      </ion-row>
+    </ion-col>
+
+
+  </ion-card>
+
+
+
+  <ion-card class="customTitleCard">
+
+    <div class="item-container">
+      <ion-row class="tagline">
+        <ion-col>
+          <ion-label>
+            <p class="title">
+              <ion-text>Fotoğraf içesisinden tespit edilen kelimeler</ion-text>
+            </p>
+          
+          </ion-label>
+        </ion-col>
+      </ion-row>
+
+      <ion-item *ngFor="let textitem of textDetections; let i = index" [ngClass]="{'hidden': i >= 2}" lines="none" class="textDetectİtem">
+        <div class="item-content">
+          <ion-icon class="textDetecticon" name="chevron-forward-circle"></ion-icon>
+          <ion-label class="textDetectLabel">{{ textitem.text }}</ion-label>
+        </div>
+      </ion-item>
+    </div>
+  </ion-card>
+
+
+</ion-content>

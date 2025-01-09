@@ -1,0 +1,150 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title mode="ios">
+      <img src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="Tarım ve Orman Bakanlığı" class="header-logo">
+    </ion-title>
+
+    <ion-buttons slot="start" [routerLink]="['/main']">
+      <ion-thumbnail class="menu">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="tagline">
+    <ion-col>
+      <ion-label>
+        <p class="title">
+          <ion-text>{{ foodLabelData?.title }}</ion-text>
+        </p>
+        <p>
+          <ion-text>{{ foodLabelData?.introduction }}</ion-text>
+        </p>
+      </ion-label>
+    </ion-col>
+  </ion-row>
+
+  
+
+  <ion-row class="ion-margin">
+
+
+    <ion-col size="12">
+      <ion-accordion-group>
+        <ion-accordion>
+          <ion-item slot="header">
+            <ion-label>Gıda Etiketlerini Doğru Okuma Adımları</ion-label>
+          </ion-item>
+    
+          <div class="ion-padding" slot="content">
+            <ion-accordion-group >
+             
+              <ion-accordion *ngFor="let step of foodLabelData?.steps">
+                <ion-item slot="header">
+                  <ion-label>{{ step.header }}</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">
+                  <p>{{ step.description }}</p>
+                </div>
+              </ion-accordion>
+            </ion-accordion-group>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+
+
+    <ion-col size="12">
+      <ion-accordion-group>
+        <ion-accordion>
+          <ion-item slot="header">
+            <ion-label>Bunlara Dikkat</ion-label>
+          </ion-item>
+    
+          <div class="ion-padding" slot="content">
+            <ion-accordion-group >
+             
+              <ion-accordion  *ngFor="let caution of foodLabelData?.cautions.details">
+                <ion-item slot="header">
+                  <ion-label>{{ caution.name }}</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">
+                  <p>{{ caution.description }}</p>
+                </div>
+              </ion-accordion>
+            </ion-accordion-group>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+
+
+
+
+    <ion-col size="12">
+      <ion-accordion-group>
+        <ion-accordion>
+          <ion-item slot="header">
+            <ion-label>Gıda Dili Sembolleri</ion-label>
+          </ion-item>
+    
+          <div class="ion-padding" slot="content">
+            <ion-accordion-group>
+              <ion-accordion *ngFor="let item of foodLabelData?.gida_dili.semboller_logolar">
+                <ion-item slot="header">
+                  <ion-label>{{ item.title }}</ion-label>
+                  <img *ngIf="item.foto" [src]="item.foto" alt="{{ item.key }} Sembolu" style="width: 24px; height: 24px;" slot="end"> <!-- Sembol resmi burada ekleniyor -->
+                </ion-item>
+                <div class="ion-padding" slot="content">
+                  <p>{{ item.metin }}</p>
+                  <img *ngIf="item.foto" [src]="item.foto" alt="{{ item.key }} Sembolu">
+                </div>
+              </ion-accordion>
+            </ion-accordion-group>
+          </div>
+          
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+
+
+
+    <ion-col size="12">
+      <ion-accordion-group>
+        <ion-accordion>
+          <ion-item  lines="none" slot="header">
+            <ion-label>Gıda İçerik Analiz Paneli</ion-label>
+          </ion-item>
+    
+          <div class="ion-padding" slot="content">
+
+            <ion-item lines="none" (click)="select.open()">
+              <ion-label>Gıda analiz etiketi seçiniz:</ion-label>
+            </ion-item>
+            <app-customselect 
+             [data]="etiketDataValues" 
+             [multiple]="true"
+            #select
+            (selectedChanged)="selectChanged($event)" 
+            > 
+
+            </app-customselect>
+          </div>
+          
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+  </ion-row>
+
+
+</ion-content>
+
+
+
+<!-- 
+<app-customselect
+  [foodEtiketData]="foodEtiketData"
+  (selectionChange)="foodEtiketSelectionChanged($event)">
+</app-customselect> -->

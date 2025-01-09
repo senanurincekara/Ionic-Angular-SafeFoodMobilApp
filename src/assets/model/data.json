@@ -1,0 +1,164 @@
+{
+  "title": "Gıda Etiketlerini Doğru Okumak İçin Bilinmesi Gerekenler",
+  "introduction": "Gıda etiketleri, bilinçli satın alma ve doğru besin tercihlerinde önemli rol oynar. Ambalajlarda yer alan bilgiler sayesinde ürünlerin besin değerleri, porsiyon miktarları, üretim izinleri gibi birçok bilgiye ulaşabilirsiniz.",
+  "importance": {
+    "title": "Gıda Etiketlerini Doğru Okumak Neden Önemli?",
+    "description": "Etiketler, sağlıklı beslenmenin temel taşıdır. Etiketleri okuyarak tükettiğiniz ürünlerin size olan katkısını veya zararını daha iyi anlayabilirsiniz."
+  },
+  "steps": [
+    {
+      "header": "1. Porsiyon",
+      "description": "Ürünün porsiyon bilgileri yer alır. Genellikle 100 gramında veya 1 porsiyonunda gibi ibareler görülür. Porsiyon bilgisi, ürünü ne kadar tükettiğinize göre besin değerlerini anlamanızı sağlar. Porsiyon kontrolü, sağlıklı beslenmenin önemli bir parçasıdır."
+    },
+    {
+      "header": "2. Kalori",
+      "description": "Ürünün porsiyon başına kalori değeri ve kalorinin hangi besin ögesinden olduğu belirtilir. Kalori miktarı, gün içerisinde ne kadar enerji almanız gerektiğini belirler. Düşük kalorili seçenekler, kilo kontrolü için yararlı olabilir."
+    },
+    {
+      "header": "3. Light Ürünler",
+      "description": "Son dönemde kalorisiz diye algılanan light ürünler, referans olarak alınan ürünlere göre %25 daha az enerji veya %50 daha az yağ içermektedir. Ancak, bu ürünlerin şeker içeriği veya katkı maddeleri artmış olabilir, bu nedenle dikkatli olmak gerekir."
+    },
+    {
+      "header": "4. Azaltılmış Ürünler",
+      "description": "Bazı ürünlerde 'Enerjisi azaltılmıştır.' gibi ibarelere yer verilir. Bu ürünler, normal ürünlere göre %25 oranında daha az enerji, şeker, yağ veya kolesterol ihtiva eder. Ancak bu, ürünün sağlıklı olduğu anlamına gelmez; içerik etiketini dikkatlice kontrol etmek önemlidir."
+    },
+    {
+      "header": "5. Zenginleştirilmiş Ürünler",
+      "description": "Gıda sanayisinin tüketici sağlığını korumak amacıyla besinin kendisinde doğrudan olmayıp sonrasında ekleyip ürettiği ürünlerdir. Zenginleştirilmiş ürünler, genellikle vitamin ve mineral eklenmiş besinlerdir, ancak şeker veya doymuş yağ içeriğine dikkat edilmelidir."
+    },
+    {
+      "header": "6. UHT (Ultra Yüksek Isı)",
+      "description": "Ultra Yüksek Isı ile olabilecek mikroorganizmaların arındırılması amaçlanır. UHT işlemi, ürünlerin raf ömrünü uzatırken, besin değerlerini de etkileyebilir. UHT süt gibi ürünlerde, besin değerlerinin kaybı konusunda dikkatli olunmalıdır."
+    },
+    {
+      "header": "7. Pastörize",
+      "description": "Zararlı bakterilerden arındırılmak istenilen yiyecek ya da içeceklerin belli bir sıcaklığa kadar ısıtılarak temizlenmesidir. Pastörizasyon, çoğu süt ve süt ürünlerinde uygulanır, ancak bazı besinlerin besin değerlerini etkileyebilir."
+    },
+    {
+      "header": "8. Glüten İçerir-İçermez",
+      "description": "Glüten; buğday, çavdar, arpa, yulaf gibi tahılların içerdiği bir protein kompleks grubudur. Glüten içeren gıdalar, çölyak hastalığı veya glüten intoleransı olan bireyler için zararlı olabilir. Bu nedenle, glüten içermeyen ürünleri tercih etmek bu bireyler için önemlidir."
+    },
+    {
+      "header": "9. Aspartam İçerir-İçermez",
+      "description": "Aspartam, düşük kalorili bir yapay tatlandırıcı olup vücutta yakıldığında fenilalanin oluşturur. Fenilketonüri (PKU) hastalığı olan bireyler için aspartam zararlıdır. Etiketlerde aspartam içeriğine dikkat edilmelidir."
+    },
+    {
+      "header": "10. İçindekiler Listesi",
+      "description": "Ürünlerin içindekiler listesi, ürünün bileşenlerini sıralar. Liste, en yüksekten en düşük miktara göre düzenlenmiştir. İçindekiler listesi, alerjenleri veya istenmeyen katkı maddelerini tespit etmek için kritik bir kaynaktır."
+    },
+    {
+      "header": "11. Alerjen Uyarıları",
+      "description": "Etiketlerde genellikle alerjenlere dair özel uyarılar yer alır. Süt, yumurta, fıstık gibi yaygın alerjenleri içeren ürünlerden kaçınmak, alerji riski taşıyan bireyler için çok önemlidir. Alerjen bilgilerini dikkatlice incelemek, sağlığınızı korumanıza yardımcı olur."
+    },
+    {
+      "header": "12. Son Kullanma Tarihi",
+      "description": "Ürünlerin son kullanma tarihleri, tazelik ve güvenlik açısından önemlidir. Tarihi geçmiş ürünleri tüketmek, sağlık risklerine yol açabilir. Her zaman son kullanma tarihine dikkat etmek, sağlıklı bir tüketim alışkanlığıdır."
+    },
+    {
+      "header": "13. Organik ve Doğal Etiketler",
+      "description": "Organik ürünler, kimyasal gübre veya pestisit kullanılmadan üretilmiş olanlardır. Doğal etiketler ise genellikle işlenmemiş malzemelerden üretilmiş ürünleri belirtir. Bu tür ürünleri seçerken etiketleri dikkatlice incelemek, sağlıklı bir beslenme için önemlidir."
+    }
+  ],
+  "cautions": {
+    "title": "Bunlara Dikkat!",
+  "details": [
+    {
+      "name": "Doymuş Yağ",
+      "description": "Bir paket üründe 1 gramdan daha az doymuş yağ bulunmalıdır. Doymuş yağlar, damar tıkanıklığına neden olarak kalp hastalıkları riskini artırabilir. Özellikle hazır gıdalarda doymuş yağ miktarına dikkat etmek, uzun vadede kalp sağlığınızı korumanız için hayati önem taşır. Az yağlı ya da yağsız ürünleri tercih etmek sağlıklı bir yaşam tarzına katkı sağlar."
+    },
+    {
+      "name": "Trans Yağ",
+      "description": "Trans yağlar, kötü kolesterol seviyesini artırırken, iyi kolesterolü düşürerek kalp ve damar hastalıklarına yol açabilir. Bu nedenle, ürünlerin trans yağ içermediğinden emin olunmalı ya da en fazla 0,5 gram trans yağ içeren ürünler tercih edilmelidir. Özellikle fast food, margarin ve hazır hamur işlerinde trans yağ miktarına dikkat etmek gerekir."
+    },
+    {
+      "name": "Kolesterol",
+      "description": "Bir ürünün paketinde 20 mg’dan daha az kolesterol bulunmalıdır. Yüksek kolesterol alımı, arterlerde yağ birikimine ve kalp krizi riskinin artmasına neden olabilir. Kolesterol seviyelerini düşük tutmak, sağlıklı kalp fonksiyonlarını destekler ve genel sağlığı iyileştirir. Etiketlerde 'düşük kolesterollü' ürünler tercih edilmelidir."
+    },
+    {
+      "name": "Tuz (Sodyum)",
+      "description": "Tuz tüketimi sınırlandırılmalıdır; bir ürünün 100 gramında en fazla 1,25 gram tuz bulunması önerilir. Aşırı tuz tüketimi, hipertansiyon, böbrek hasarı ve kalp sorunlarına yol açabilir. Özellikle işlenmiş ve paketli gıdalarda tuz miktarını kontrol etmek sağlığınızı korumanız açısından kritik öneme sahiptir. Düşük sodyum içeren ürünleri seçmeye özen gösterin."
+    },
+    {
+      "name": "Şeker",
+      "description": "Her porsiyon için en fazla 9 gram şeker içermesi gerekir. Fazla şeker tüketimi, insülin direnci, obezite, tip 2 diyabet ve diş çürümelerine yol açabilir. Gıda etiketlerinde 'ilave şeker içermez' veya 'düşük şekerli' ibarelerini aramak sağlıklı bir yaşam tarzı için önemli bir adımdır. Şeker oranı düşük alternatifleri tercih etmek uzun vadede sağlığınızı korur."
+    },
+    {
+      "name": "Lif",
+      "description": "Her porsiyonun en az 5 gram lif içermesi gerekir. Lif, sindirimi düzenler, bağırsak sağlığını destekler ve uzun süre tokluk hissi sağlayarak aşırı yeme riskini azaltır. Yüksek lifli gıdalar, kan şekeri seviyelerini dengelemeye ve kolesterolü düşürmeye yardımcı olur. Lif içeriği yüksek ürünler sağlıklı beslenmenin vazgeçilmezidir."
+    }]
+  },
+  "gida_dili": {
+    "semboller_logolar": [
+      {
+        "title": "Gıda Işınlama sembolü",
+        "metin": "Isıl işlem veya koruyucu kullanımın mümkün olmadığı kimi gıda maddelerinin; sağlık açısından risk yaratacak bulaşanlardan arındırılması için ‘ışınlama’ tekniği kullanılır. Gıda Işınlama Yönetmeliği gereğince; ışınlanmış ve tüketime hazır olarak ambalajlanmış gıda ambalajı üzerinde gıdanın isminin yanında yazı ve yanda şekli gösterilen yeşil renkli uluslararası ‘gıda ışınlama sembolü’ ile tüketicilerin doğru bilgilendirilmesi gerekmektedir.",
+        "foto": "/assets/semboller/22.png"
+      },
+      {
+        "title": "Gıda ile Temas Eden Madde ve Malzeme Sembolü",
+        "metin": "Gıda ile temas eden madde ve malzemelerin diğer madde ve malzemelerden ayrılabilmesi amacı ile özel bir sembolün kullanılması Yönetmelikle zorunlu hale getirilmiştir. Ambalaj materyalinin gıda ile temasa uygun olduğunu tüketiciye ifade etmek amacıyla; gıda ile temas eden her tür madde ve malzemeleri üzerinde ‘Gıda ile temasa uygundur.’ ifadesinin veya ilgili sembolün bulundurulması zorunludur.",
+        "foto": "/assets/semboller/16.png"
+      },
+      {
+        "title": "İyot Tuzu Sembolü",
+        "metin": "Ülkemizde; çocuklarda iyot eksikliği nedeniyle önlenebilir zeka geriliği vakaları oldukça yaygın biçimde görülmektedir. Tuz Tebliği gereğince; iyotlu tuzda, sembol kolay görünen boyutta ve ürün adı ile aynı yüzde bulunmalıdır.",
+        "foto": "/assets/semboller/19.png"
+      },
+      {
+        "title": "Organik Gıda Logosu",
+        "metin": "Organik gıda maddelerinin; diğer gıdalarla karıştırılmasını önlemek amacıyla ‘organik gıda’ logosu kullanılmaktadır. Türkiye'de satışa sunulan tüm sertifikalı organik ürünlerin ambalajında, ürünün organik olduğunu gösteren özel bir logolu etiket bulunur.",
+        "foto": "/assets/semboller/21.png"
+      },
+      {
+        "title": "İyi Tarım Uygulamaları",
+        "metin": "İyi Tarım Uygulamaları Hakkında Yönetmelik gereğince; piyasaya arz edilen son haliyle kontrol edilebilen ve sertifikalandırılmış olan ürün, satış yerinde iyi tarım uygulamaları sertifikası ve logosunu kullanarak satılabilir.",
+        "foto": "/assets/semboller/17.png"
+      },
+      {
+        "title": "Menşe Adı",
+        "metin": "Özelliklerini üretildiği yöreye borçlu olan ve tüm üretim süreçleri özdeşleştiği yörede gerçekleşen coğrafi işaretleri gösterir.",
+        "foto": "/assets/semboller/20.png"
+      },
+       {
+        "title": "Mahreç İşareti",
+        "metin": "Belirgin bir özelliği veya ünü, özdeşleştiği yöreden kaynaklanan ürünleri gösterir.",
+        "foto": "/assets/semboller/18.png"
+      },
+      {
+        "title": "Yerli Üretim Logosu",
+        "metin": "Ticaret Bakanlığı’nın getirmiş olduğu düzenleme ile birlikte Türkiye’de üretilen ürünlerin etiket, tarife ve fiyat listelerinde kullanılması zorunlu olan ibaredir. Bu logonun amacı Türkiye’de üretilen ürünlerin ön plana çıkarılmasını sağlamaktır.",
+        "foto": "/assets/semboller/24.png"
+      },
+      {
+        "title": "Glutensiz Gıda Sembolü",
+        "metin": "Ürünün gluten içermediğini gösteren semboldür. Çölyak hastaları ve gluten intoleransı olan kişiler için güvenli ürünler anlamına gelir. Glutensiz ürünler, buğday, arpa, çavdar gibi tahılları içermez.",
+        "foto": "/assets/semboller/1.png"
+      },
+      {
+        "title": "Vegan Gıda Sembolü",
+        "metin": "Vegan gıda sembol, ürünün hiçbir hayvansal içerik barındırmadığını gösterir. Vegan ürünler, tamamen bitkisel kaynaklıdır ve hayvansal ürün kullanmayan kişiler için uygun bir tercihtir.",
+        "foto": "/assets/semboller/2.png"
+      },
+      {
+        "title": "Laktozsuz Gıda Sembolü",
+        "metin": "Bu sembol, ürünün laktoz içermediğini belirtir. Laktoz intoleransı olan bireyler bu sembolü taşıyan ürünleri rahatlıkla tüketebilirler.",
+        "foto": "/assets/semboller/3.png"
+      },
+      {
+        "title": "Palm Yağı İçermez Sembolü",
+        "metin": "Bu sembol, ürünün palm yağı içermediğini belirtir.Palm yağı, palmiye ağacının meyvesinden elde edilen bitkisel bir yağdır. Dünyada en çok üretilen ve tüketilen yağlardan biridir. Gıda endüstrisinde, kozmetik ürünlerinde ve biyoyakıt üretiminde yaygın olarak kullanılır. Çevresel etkileri nedeniyle eleştirilen bir yağdır ve bu sembol, daha sürdürülebilir ürünleri tercih eden tüketiciler için önemlidir.",
+        "foto": "/assets/semboller/4.png"
+      },
+      {
+        "title": "GMO İçermez Sembolü",
+        "metin": "Bu sembol, ürünün genetiği değiştirilmiş organizmalar (GMO) içermediğini belirtir. Doğal ürünler tercih eden ve GDO'lu gıdalardan kaçınan tüketiciler için önemlidir.",
+        "foto": "/assets/semboller/5.png"
+      }
+      
+      
+      
+      
+      
+    ]
+  }
+}

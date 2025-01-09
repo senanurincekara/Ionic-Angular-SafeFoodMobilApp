@@ -1,7 +1,17 @@
+
+
+
+
 {
   "name": "safeFood",
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://guvenilirgida.tarimorman.gov.tr/GuvenilirGida/GKD/DataTablesList"
+    }
+  ]
 }

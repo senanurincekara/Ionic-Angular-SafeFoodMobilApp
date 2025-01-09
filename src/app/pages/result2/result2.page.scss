@@ -1,0 +1,198 @@
+ion-toolbar {
+    --background: rgb(255, 255, 255);
+    padding: 10px; 
+    
+    --padding-start: 10px; 
+    --padding-end: 10px;
+    --padding-top:10px;
+  
+    display: flex; 
+    align-items: center; /* Dikey ortalama */
+    justify-content: space-between; 
+  
+    ion-title {
+      margin: 0;
+      display: flex;
+      align-items: center; /* Dikey ortalama */
+      
+      img {
+        height: 6vh;
+        width: 6vh;
+      }
+    }
+  
+    ion-thumbnail {
+      background-color: rgb(102, 18, 18);
+      --border-radius: 10px;
+  
+      justify-content: center;
+      display: flex;
+      align-items: center;  
+      
+      ion-icon {
+        font-size: 1.5rem;
+        color: white;
+      }
+  
+      img {
+        width: 90%;
+        height: 90%;
+        align-items: center;
+      }
+    }
+  
+    ion-thumbnail.menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  
+  ion-content {
+      --background: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  
+
+  
+  ion-card {
+      margin: 0px 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.31);
+      background-color: #f4faff;
+  
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: left;
+      margin-top: 10px;
+    }
+ 
+  
+  
+  
+
+    
+    ion-card ion-thumbnail {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+      width: 60px;
+      border-radius: 20%;
+      flex-shrink: 0;
+     
+      margin: 4px ;
+      --background-color: #470d02ad;
+      margin-right: 10px;
+    }
+    
+    ion-icon {
+      font-size: 28px;
+    }
+      
+    ion-label{
+      font-size: 25px;
+      font-weight: bolder;
+      margin-left: 10px; 
+  
+      display: flex;
+      // flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    
+    ion-card ion-label {
+      font-size: 14px;
+      padding: 10px 0;
+      color: #000000;
+      text-align: center;
+      font-weight: bolder;
+      display: block;
+    }
+
+    .customTitleCard {
+      // margin: 0px 20px;
+      border-radius: 12px;
+      background-color: #fcfcfc;
+      margin-top: 10px;
+      display: block;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.31);
+
+    }
+    
+    .item-container {
+      display: flex;
+      flex-wrap: wrap; 
+      /* Çoklu satırlara yayılmasını sağlıyor */
+    }
+    
+    .textDetectİtem {
+      --background: transparent;
+      --inner-padding-end: 10px;
+      padding-left: 0;
+      border-bottom: none;
+      align-items: center;
+      display: flex; /* Flexbox kullanarak içerikleri hizala */
+      
+      flex: 0 0 calc(50% - 10px); /* Her bir item %50 genişlik alır */
+      margin-bottom: 10px;
+      
+      &:nth-child(odd) {
+        margin-right: 10px; /* Tek sayılı item'lar için sağ boşluk */
+      }
+
+      .item-content {
+        display: flex; /* İçeriği flex olarak ayarlıyoruz */
+        align-items: center; /* İkon ve metinleri dikeyde ortala */
+      }
+
+    }
+    
+  
+    
+    .textDetecticon {
+      color: #4b0007;
+      font-size: 23px;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+    
+    .textDetectLabel {
+      font-size: 16px;
+      font-weight: bold;
+      color: #570101a4;
+      flex-grow: 1; /* Metin genişledikçe ikon alanını etkilemez */
+    
+    }
+    
+
+    ion-row.tagline{
+      padding-top: 15px;
+     
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    
+    
+      ion-text{
+          font-size: 0.8rem;
+          font-weight: 600;
+          color: rgba(0, 0, 0, 0.849);
+        
+      }
+  
+      .title ion-text{
+          font-size: 1.1rem;
+          font-weight: 900;
+          color: rgba(0, 0, 0, 0.849);
+        
+      }
+    
+    }

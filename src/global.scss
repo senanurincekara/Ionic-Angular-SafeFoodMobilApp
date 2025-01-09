@@ -35,3 +35,28 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+
+body.scanner-active {
+    --background: transparent;
+    --ion-background-color: transparent;
+  }
+
+
+  
+  ion-accordion.accordion-animated>[slot=header] .ion-accordion-toggle-icon {
+    transition: 300ms transform cubic-bezier(0.25, 0.8, 0.5, 1);
+    color: rgb(53, 3, 3);
+  }
+
+
+  
+  background-content {
+    left: 0px;
+    right: 0px;
+    top: calc(var(--offset-top)* -1);
+    bottom: calc(var(--offset-bottom)* -1);
+    position: absolute;
+    background: red;
+}
+

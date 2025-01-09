@@ -1,0 +1,840 @@
+{
+    "gida_renklendiricileri": [
+        {
+            "kod": "E100",
+            "isim": "Kurkuminoidler",
+            "kaynak": "Zerdeçal",
+            "kullanim_alani": "Gıda ve içeceklerde sarı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketiminde mide rahatsızlıkları"
+            ]
+        },
+        {
+            "kod": "E101",
+            "isim": "Riboflavin",
+            "kaynak": "Süt, süt ürünleri, yumurta",
+            "kullanim_alani": "Sarı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Yüksek dozda alındığında ishal riski"
+            ]
+        },
+        {
+            "kod": "E102",
+            "isim": "Tartrazin",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Şekerlemeler ve içeceklerde sarı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar (özellikle astım hastalarında)",
+                "Dikkat eksikliği ve hiperaktivite bozukluğu (DEHB) riski"
+            ]
+        },
+        {
+            "kod": "E103",
+            "isim": "Bromo-Karotin",
+            "kaynak": "Havuç",
+            "kullanim_alani": "Sarı-turuncu renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında ciltte renk değişimi"
+            ]
+        },
+        {
+            "kod": "E104",
+            "isim": "Ponceau 4R",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Kırmızı renk verici olarak gıda ve içeceklerde kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Dikkat eksikliği ve hiperaktivite bozukluğu (DEHB) riski"
+            ]
+        },
+        {
+            "kod": "E105",
+            "isim": "Taramino Kırmızı",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Kırmızı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Potansiyel kanserojen etki"
+            ]
+        },
+        {
+            "kod": "E110",
+            "isim": "Güneş Sarısı",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Sarı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Dikkat eksikliği ve hiperaktivite bozukluğu (DEHB) riski"
+            ]
+        },
+        {
+            "kod": "E120",
+            "isim": "Karmin",
+            "kaynak": "Böcekler (Cochineal)",
+            "kullanim_alani": "Kırmızı renk verici olarak şekerlemelerde ve yoğurtlarda kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Gıda alerjisi riski"
+            ]
+        },
+        {
+            "kod": "E140",
+            "isim": "Klorofil",
+            "kaynak": "Yeşil bitkiler",
+            "kullanim_alani": "Yeşil renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E141",
+            "isim": "Klorofilin",
+            "kaynak": "Yeşil bitkiler",
+            "kullanim_alani": "Yeşil renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında mide rahatsızlıkları"
+            ]
+        },
+        {
+            "kod": "E150",
+            "isim": "Karamel",
+            "kaynak": "Şekerin ısıtılması",
+            "kullanim_alani": "Kahverengi renk verici olarak içeceklerde ve tatlılarda kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketimi kan şekerinde artışa neden olabilir"
+            ]
+        },
+        {
+            "kod": "E151",
+            "isim": "Siyah PN",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koyu renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Potansiyel kanserojen etki"
+            ]
+        },
+        {
+            "kod": "E160",
+            "isim": "Karotenoidler",
+            "kaynak": "Havuç, domates",
+            "kullanim_alani": "Turuncu-kırmızı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketimde ciltte sararma"
+            ]
+        },
+        {
+            "kod": "E161b",
+            "isim": "Lutein",
+            "kaynak": "Yeşil yapraklı sebzeler",
+            "kullanim_alani": "Sarı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketimde ciltte sararma"
+            ]
+        },
+        {
+            "kod": "E162",
+            "isim": "Betanin",
+            "kaynak": "Pancar",
+            "kullanim_alani": "Kırmızı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında idrar renginin değişmesi"
+            ]
+        },
+        {
+            "kod": "E163",
+            "isim": "Antosiyanin",
+            "kaynak": "Meyveler (Üzüm, böğürtlen)",
+            "kullanim_alani": "Kırmızı-mor renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketimde sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E170",
+            "isim": "Kalsiyum Karbonat",
+            "kaynak": "Mineral",
+            "kullanim_alani": "Beyaz renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketimde kabızlık"
+            ]
+        },
+        {
+            "kod": "E171",
+            "isim": "Titanyum Dioksit",
+            "kaynak": "Mineral",
+            "kullanim_alani": "Beyaz renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Potansiyel kanserojen etki"
+            ]
+        },
+        {
+            "kod": "E172",
+            "isim": "Demir Oksitler",
+            "kaynak": "Mineral",
+            "kullanim_alani": "Kırmızı, kahverengi ve sarı renk verici olarak kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        },
+        {
+            "kod": "E173",
+            "isim": "Alüminyum Oksit",
+            "kaynak": "Mineral",
+            "kullanim_alani": "Gıda katkı maddesi olarak kullanımı sınırlıdır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        },
+        {
+            "kod": "E200",
+            "isim": "Sorbitol",
+            "kaynak": "Şeker alkolü",
+            "kullanim_alani": "Nem tutucu ve tatlandırıcı olarak kullanılır.",
+            "zararlari": [
+                "Aşırı tüketimde ishal",
+                "Gaz ve şişkinlik"
+            ]
+        }
+    ],
+    "gida_koruyuculari": [
+        {
+            "kod": "E200",
+            "isim": "Sorbitol",
+            "kaynak": "Şeker alkolü",
+            "kullanim_alani": "Nem tutucu ve tatlandırıcı olarak kullanılır. Özellikle düşük kalorili gıdalarda tercih edilir.",
+            "zararlari": [
+                "Aşırı tüketimde ishal: Şeker alkolleri sindirilemediği için aşırı miktarda alındığında bağırsakları etkileyebilir.",
+                "Gaz ve şişkinlik: Vücutta fermente olarak gaz üretimine neden olabilir."
+            ]
+        },
+        {
+            "kod": "E201",
+            "isim": "Sodyum Benzoat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Asidik gıdalarda koruyucu olarak kullanılır. Özellikle içecekler ve turşularda yaygındır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjik reaksiyonlara yol açabilir.",
+                "Yüksek dozda alındığında toksik etki: Aşırı tüketimi sağlık sorunlarına neden olabilir."
+            ]
+        },
+        {
+            "kod": "E202",
+            "isim": "Potasyum Benzoat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Asidik gıdalarda koruyucu olarak kullanılır. Özellikle meyve suyu ve şekerlemelerde görülür.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Bireylerde alerjik tepkimelere neden olabilir.",
+                "Yüksek dozda alındığında toksik etki: Aşırı tüketim durumunda zararlı olabilir."
+            ]
+        },
+        {
+            "kod": "E203",
+            "isim": "Sodyum Sorbat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Peynir ve diğer süt ürünlerinde koruyucu olarak kullanılır. Özellikle çürümeyi önlemek için tercih edilir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Bazı kişilerde alerjik yanıtlar gözlemlenebilir.",
+                "Sindirim sorunları: Aşırı miktarda alındığında sindirim problemlerine neden olabilir."
+            ]
+        },
+        {
+            "kod": "E210",
+            "isim": "Benzoik Asit",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Şekerlemeler ve içeceklerde koruyucu olarak kullanılır. Bakteri ve mantar büyümesini önler.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Bazı kişilerde alerjik tepkimeler oluşturabilir.",
+                "Aşırı tüketimde mide rahatsızlıkları: Yüksek miktarda alındığında mide problemleri yaratabilir."
+            ]
+        },
+        {
+            "kod": "E211",
+            "isim": "Sodyum Benzoat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "İçecekler ve turşularda koruyucu olarak kullanılır. Genellikle asidik gıdalarda etkilidir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjik tepkimelere yol açabilir.",
+                "Yüksek dozda alındığında toksik etki: Aşırı miktarda alındığında zehirli etkiler yaratabilir."
+            ]
+        },
+        {
+            "kod": "E212",
+            "isim": "Potasyum Benzoat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Süt ürünleri ve asidik gıdalarda koruyucu olarak kullanılır. Fermentasyon süreçlerini önler.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Bazı bireylerde alerjik tepkimelere neden olabilir.",
+                "Sindirim sorunları: Aşırı tüketim sindirim problemlerine yol açabilir."
+            ]
+        },
+        {
+            "kod": "E213",
+            "isim": "Kalsiyum Benzoat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Gıda ürünlerinde koruyucu olarak kullanılır. Özellikle turşularda tercih edilir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjiye neden olabilir.",
+                "Aşırı tüketimde mide rahatsızlıkları: Yüksek miktarda alındığında midedeki rahatsızlıkları artırabilir."
+            ]
+        },
+        {
+            "kod": "E220",
+            "isim": "Sülfür Dioksit",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Kuru meyve ve şaraplarda koruyucu olarak kullanılır. Renk koruma ve mikrobiyal kontrol sağlar.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Özellikle astım hastalarında sorunlara neden olabilir.",
+                "Astım hastalarında belirtileri artırabilir: Alerjisi olan bireylerde astım ataklarını tetikleyebilir."
+            ]
+        },
+        {
+            "kod": "E221",
+            "isim": "Sodyum Sülfid",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve antioksidan olarak kullanılır. Genellikle et ürünlerinde bulunur.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerjiye yol açabilir.",
+                "Mide rahatsızlıkları: Aşırı alım midedeki rahatsızlıkları artırabilir."
+            ]
+        },
+        {
+            "kod": "E222",
+            "isim": "Potasyum Sülfid",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu olarak kullanılır. Genellikle meyve işleme süreçlerinde kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerji belirtilerine neden olabilir.",
+                "Mide rahatsızlıkları: Yüksek miktarda alındığında mide sorunlarını artırabilir."
+            ]
+        },
+        {
+            "kod": "E223",
+            "isim": "Sodyum Metabisülfite",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Şarap ve meyve suyu koruyucusu olarak kullanılır. Antioksidan özelliklere sahiptir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Özellikle astım hastalarında alerjik tepkimelere yol açabilir.",
+                "Astım hastalarında belirtileri artırabilir: Alerjik bireylerde astım krizlerini tetikleyebilir."
+            ]
+        },
+        {
+            "kod": "E224",
+            "isim": "Potasyum Metabisülfite",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Gıda ve içecek koruyucusu olarak kullanılır. Genellikle meyve suyu ve şaraplarda kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerji belirtilerine neden olabilir.",
+                "Astım hastalarında belirtileri artırabilir: Alerji riski taşıyan bireylerde sorunlara yol açabilir."
+            ]
+        },
+        {
+            "kod": "E225",
+            "isim": "Kalsiyum Metabisülfite",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu olarak kullanılır. Genellikle gıda işleme süreçlerinde kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerjiye neden olabilir.",
+                "Mide rahatsızlıkları: Aşırı tüketim mide problemlerini artırabilir."
+            ]
+        },
+        {
+            "kod": "E226",
+            "isim": "Sodyum Bisülfat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu olarak kullanılır. Genellikle asidik gıdalarda yer alır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjik tepkimelere neden olabilir.",
+                "Astım hastalarında belirtileri artırabilir: Alerji riski taşıyan bireylerde astım ataklarını tetikleyebilir."
+            ]
+        },
+        {
+            "kod": "E227",
+            "isim": "Potasyum Bisülfat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu olarak kullanılır. Genellikle gıda işleme süreçlerinde yer alır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerjik tepkimelere yol açabilir.",
+                "Astım hastalarında belirtileri artırabilir: Alerji riski taşıyan bireylerde astım belirtilerini tetikleyebilir."
+            ]
+        },
+        {
+            "kod": "E250",
+            "isim": "Sodyum Nitrat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Et ve şarküteri ürünlerinde koruyucu olarak kullanılır. Renk koruma ve mikrobiyal kontrol sağlar.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjiye neden olabilir.",
+                "Aşırı tüketimde toksik etki: Yüksek miktarda alındığında zararlı etkileri olabilir."
+            ]
+        },
+        {
+            "kod": "E251",
+            "isim": "Sodyum Nitrit",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Et ve şarküteri ürünlerinde koruyucu olarak kullanılır. Genellikle renk koruma amacıyla tercih edilir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerjik tepkimelere yol açabilir.",
+                "Kanserojen etkileri olabilir: Aşırı tüketim durumunda sağlık sorunları oluşturabilir."
+            ]
+        },
+        {
+            "kod": "E252",
+            "isim": "Potasyum Nitrat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu olarak kullanılır. Genellikle gıda işleme süreçlerinde kullanılır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerjik tepkimelere neden olabilir.",
+                "Aşırı tüketimde toksik etki: Yüksek miktarda alındığında sağlığı tehdit edebilir."
+            ]
+        },
+        {
+            "kod": "E260",
+            "isim": "Sitrik Asit",
+            "kaynak": "Narenciye meyveleri",
+            "kullanim_alani": "Asidik gıdalarda koruyucu ve tatlandırıcı olarak kullanılır. Genellikle meyve ve içeceklerde bulunur.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjik tepkimelere yol açabilir.",
+                "Yüksek miktarda alındığında mide rahatsızlıkları: Aşırı alım midedeki rahatsızlıkları artırabilir."
+            ]
+        },
+        {
+            "kod": "E261",
+            "isim": "Sodyum Sitrik",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve tatlandırıcı olarak kullanılır. Genellikle içeceklerde bulunur.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerjik tepkimelere yol açabilir.",
+                "Yüksek miktarda alındığında sindirim sorunları: Aşırı alım sindirim sisteminde rahatsızlık yaratabilir."
+            ]
+        },
+        {
+            "kod": "E262",
+            "isim": "Potasyum Sitrik",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu olarak kullanılır. Genellikle asidik gıdalarda tercih edilir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Duyarlı bireylerde alerji belirtilerine yol açabilir.",
+                "Yüksek miktarda alındığında sindirim sorunları: Aşırı alım sindirim problemlerine yol açabilir."
+            ]
+        },
+        {
+            "kod": "E270",
+            "isim": "Laktik Asit",
+            "kaynak": "Süt ve süt ürünleri",
+            "kullanim_alani": "Koruyucu ve asit düzenleyici olarak kullanılır. Özellikle süt ürünlerinde yaygındır.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjiye neden olabilir.",
+                "Yüksek miktarda alındığında sindirim sorunları: Aşırı tüketim sindirim problemlerini artırabilir."
+            ]
+        },
+        {
+            "kod": "E300",
+            "isim": "Askorbik Asit",
+            "kaynak": "C vitamini",
+            "kullanim_alani": "Koruyucu ve antioksidan olarak kullanılır. Genellikle meyve ve sebzelerde bulunur.",
+            "zararlari": [
+                "Alerjik reaksiyonlar: Hassas bireylerde alerjik tepkimelere yol açabilir.",
+                "Aşırı miktarda alındığında ishal: Yüksek alım bağırsakları etkileyebilir."
+            ]
+        }
+    ],
+    "gida_katki_maddeleri": [
+        {
+            "kod": "E300",
+            "isim": "Askorbik Asit",
+            "kaynak": "C vitamini",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında ishal"
+            ]
+        },
+        {
+            "kod": "E301",
+            "isim": "Sodyum Askorbik",
+            "kaynak": "C vitamini türevi",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında ishal"
+            ]
+        },
+        {
+            "kod": "E302",
+            "isim": "Sodyum Askorbat",
+            "kaynak": "C vitamini türevi",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında ishal"
+            ]
+        },
+        {
+            "kod": "E303",
+            "isim": "Kalsiyum Askorbik",
+            "kaynak": "C vitamini türevi",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında ishal"
+            ]
+        },
+        {
+            "kod": "E304",
+            "isim": "Tokoferoller",
+            "kaynak": "Bitkisel yağlar",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kanama riskinin artması"
+            ]
+        },
+        {
+            "kod": "E305",
+            "isim": "Tokoferol Asetat",
+            "kaynak": "Bitkisel yağlar",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kanama riskinin artması"
+            ]
+        },
+        {
+            "kod": "E306",
+            "isim": "Karışık Tokoferoller",
+            "kaynak": "Bitkisel yağlar",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kanama riskinin artması"
+            ]
+        },
+        {
+            "kod": "E307",
+            "isim": "Alfa-Tokoferol",
+            "kaynak": "Bitkisel yağlar",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kanama riskinin artması"
+            ]
+        },
+        {
+            "kod": "E308",
+            "isim": "Gamma-Tokoferol",
+            "kaynak": "Bitkisel yağlar",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kanama riskinin artması"
+            ]
+        },
+        {
+            "kod": "E309",
+            "isim": "Delta-Tokoferol",
+            "kaynak": "Bitkisel yağlar",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kanama riskinin artması"
+            ]
+        },
+        {
+            "kod": "E310",
+            "isim": "Propil Galat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E311",
+            "isim": "Butilhidroksianizol (BHA)",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Potansiyel kanserojen etki"
+            ]
+        },
+        {
+            "kod": "E312",
+            "isim": "Butilhidroksitoluen (BHT)",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Potansiyel kanserojen etki"
+            ]
+        },
+        {
+            "kod": "E320",
+            "isim": "Sodyum Eritorat",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve antioksidan",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E322",
+            "isim": "Lesitin",
+            "kaynak": "Soya, yumurta",
+            "kullanim_alani": "Emülgatör ve stabilizatör",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı tüketimde mide rahatsızlıkları"
+            ]
+        },
+        {
+            "kod": "E330",
+            "isim": "Sitrik Asit",
+            "kaynak": "Narenciye meyveleri",
+            "kullanim_alani": "Asidik gıdalarda koruyucu ve tatlandırıcı",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Yüksek miktarda alındığında mide rahatsızlıkları"
+            ]
+        },
+        {
+            "kod": "E331",
+            "isim": "Sodyum Sitrik",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu ve tatlandırıcı",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Yüksek miktarda alındığında sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E332",
+            "isim": "Potasyum Sitrik",
+            "kaynak": "Sentetik",
+            "kullanim_alani": "Koruyucu",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Yüksek miktarda alındığında sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E400",
+            "isim": "Agar",
+            "kaynak": "Deniz yosunu",
+            "kullanim_alani": "Emülgatör ve stabilizatör",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında sindirim sorunları"
+            ]
+        }
+    ],
+    "antibiyotikler": [
+        {
+            "kod": "E700",
+            "isim": "Bacitracin",
+            "kaynak": "Bacillus subtilis bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Gıda ürünlerinde bakteri gelişimini engellemek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        },
+        {
+            "kod": "E701",
+            "isim": "Nisin",
+            "kaynak": "Lactococcus lactis bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Gıda ürünlerinde bakteri ve mantarların gelişimini inhibe etmek için kullanılan doğal bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Bazı bireylerde aşırı duyarlılık"
+            ]
+        },
+        {
+            "kod": "E702",
+            "isim": "Natamisin",
+            "kaynak": "Streptomyces natalensis bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Gıda ürünlerinde mantar ve mayaların gelişimini engellemek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında sindirim sorunları"
+            ]
+        },
+        {
+            "kod": "E703",
+            "isim": "Tetraciklin",
+            "kaynak": "Streptomyces aureofaciens bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Gıda ürünlerinde bakteriyel enfeksiyonları önlemek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında karaciğer hasarı"
+            ]
+        },
+        {
+            "kod": "E704",
+            "isim": "Penisilin",
+            "kaynak": "Penicillium mold'undan elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Bakteriyel enfeksiyonları tedavi etmek için kullanılan yaygın bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        },
+        {
+            "kod": "E705",
+            "isim": "Eritromisin",
+            "kaynak": "Saccharopolyspora erythraea bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Bakteriyel enfeksiyonları tedavi etmek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında karaciğer hasarı"
+            ]
+        },
+        {
+            "kod": "E706",
+            "isim": "Tübaerkulin",
+            "kaynak": "Mycobacterium tuberculosis bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Tüberküloz tedavisinde kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        },
+        {
+            "kod": "E707",
+            "isim": "Gentamisin",
+            "kaynak": "Micromonospora purpurea bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Bakteriyel enfeksiyonları tedavi etmek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında böbrek hasarı"
+            ]
+        },
+        {
+            "kod": "E708",
+            "isim": "Sefalosporin",
+            "kaynak": "Cephalosporium acremonium mantarından elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Geniş spektrumlu bir antibiyotik olarak kullanılan bileşiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        },
+        {
+            "kod": "E709",
+            "isim": "Klindamisin",
+            "kaynak": "Streptomyces venezuelae bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Anaerobik bakterilerin neden olduğu enfeksiyonları tedavi etmek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında ishal"
+            ]
+        },
+        {
+            "kod": "E710",
+            "isim": "Fosfomisin",
+            "kaynak": "Pseudomonas fluorescens bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "İdrar yolu enfeksiyonlarının tedavisinde kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında mide bulantısı"
+            ]
+        },
+        {
+            "kod": "E711",
+            "isim": "Chloramphenicol",
+            "kaynak": "Streptomyces venezuelae bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Geniş spektrumlu bir antibiyotik olarak kullanılan bileşiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kan bozuklukları"
+            ]
+        },
+        {
+            "kod": "E712",
+            "isim": "Streptomisin",
+            "kaynak": "Streptomyces griseus bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Tüberküloz ve diğer bakteriyel enfeksiyonların tedavisinde kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında işitme kaybı"
+            ]
+        },
+        {
+            "kod": "E713",
+            "isim": "Rifampisin",
+            "kaynak": "Amycolatopsis rifamycinica bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Tüberküloz tedavisinde kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında karaciğer hasarı"
+            ]
+        },
+        {
+            "kod": "E714",
+            "isim": "Vankomisin",
+            "kaynak": "Amycolatopsis orientalis bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Gram pozitif bakterilerin neden olduğu enfeksiyonları tedavi etmek için kullanılan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında böbrek hasarı"
+            ]
+        },
+        {
+            "kod": "E715",
+            "isim": "Daptomisin",
+            "kaynak": "Streptomyces roseosporus bakterisinden elde edilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Gram pozitif bakterilere karşı etkili olan bir antibiyotiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında kas hasarı"
+            ]
+        },
+        {
+            "kod": "E716",
+            "isim": "Kifloxacin",
+            "kaynak": "Kimyasal işlemle üretilir",
+            "kullanim_alani": "Antibiyotik",
+            "kısa_tanım": "Geniş spektrumlu bir antibiyotik olarak kullanılan bileşiktir.",
+            "zararlari": [
+                "Alerjik reaksiyonlar",
+                "Aşırı miktarda alındığında toksik etki"
+            ]
+        }
+    ]
+}
+
+
+

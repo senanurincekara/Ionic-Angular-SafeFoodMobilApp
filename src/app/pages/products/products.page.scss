@@ -1,0 +1,143 @@
+ion-toolbar {
+  --background: rgb(255, 255, 255);
+  padding: 10px; 
+  
+  --padding-start: 10px; 
+  --padding-end: 10px;
+  --padding-top:10px;
+
+  display: flex; 
+  align-items: center; /* Dikey ortalama */
+  justify-content: space-between; 
+
+  ion-title {
+    margin: 0;
+    display: flex;
+    align-items: center; /* Dikey ortalama */
+    
+    img {
+      height: 6vh;
+      width: 6vh;
+    }
+  }
+
+  ion-thumbnail {
+    background-color: rgb(102, 18, 18);
+    --border-radius: 10px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;  
+    --flex-shrink:0;
+    
+    ion-icon {
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    img {
+      width: 90%;
+      height: 90%;
+      align-items: center;
+    }
+  }
+
+  ion-thumbnail.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+
+
+
+
+
+
+
+ion-content {
+    --background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+ion-card {
+    margin: 0px 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.31);
+    background-color: #f4faff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+  }
+
+ .container-label-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+  
+ }
+
+
+
+
+
+
+  ion-card-title {
+    color: #333;
+    font-weight: bold;
+    padding: 8px 16px;
+  }
+  
+  ion-card ion-thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    flex-shrink: 0;
+   
+    margin: 4px ;
+    --background-color: #d9ebfd;
+    margin-right: 10px;
+  }
+  
+  ion-icon {
+    font-size: 28px;
+  }
+    
+  ion-label{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px; 
+
+    display: flex;
+    // flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  ion-card ion-label {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #000000;
+    text-align: left;
+    font-weight: bolder;
+    display: block;
+
+
+  }

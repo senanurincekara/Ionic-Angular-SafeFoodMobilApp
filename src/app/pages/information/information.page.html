@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title mode="ios">
+      <img src="/assets/Tarım_ve_Orman_Bakanlığı_logo.svg.png" alt="">
+    </ion-title>
+
+    <ion-buttons slot="start" [routerLink]="['/main']">
+      <ion-thumbnail class="menu">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-thumbnail>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-loading class="custom-loading"
+    [isOpen]="loading"
+    message="Yükleniyor..."
+  ></ion-loading>
+
+  <ion-accordion-group>
+    <ion-accordion *ngFor="let item of items" toggleIcon="caret-down-circle">
+      <ion-item slot="header">
+        <ion-label>{{item.title}}</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{item.content}}</div>
+    </ion-accordion>
+  </ion-accordion-group>
+</ion-content>
